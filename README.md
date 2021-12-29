@@ -1,5 +1,4 @@
 ## Stellar docker - fast database restoration tool in a container
-***
 The project aims to simplify using [stellar](https://github.com/fastmonkeys/stellar), 
 amazing tool accelerating database restoration. 
 
@@ -26,5 +25,4 @@ docker run -it -v $yourVolument:/data bartoszpolnik/stellar:latest $yourCommand$
 Image contains only driver for postgresql. Contibutions to add mysql appreciated!
 
 ### Special thanks to
-***
 - [@fastmonkeys](https://github.com/fastmonkeys/stellar) for creating stellar
