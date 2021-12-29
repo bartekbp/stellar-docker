@@ -17,7 +17,7 @@ It will prompt `stellar` to create a new configuration. If your database is host
 replace hostname with `host.docker.internal`. This will make docker correctly resolve the ip to your host.  
 4. After the `stellar.yaml` is created, you can execute commands by passing them to the container as follows: 
 ```
-docker run -it -v $yourVolument:/data bartoszpolnik/stellar:latest $yourCommand$
+docker run -it -v $yourVolumen:/data bartoszpolnik/stellar:latest $yourCommand$
 ```
 
 ### Limitations
