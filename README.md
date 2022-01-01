@@ -21,7 +21,7 @@ docker run -it -v $yourVolumen:/data --sysctl net.ipv4.tcp_keepalive_time=60 bar
 ```
 
 It's important to remember about setting `net.ipv4.tcp_keepalive_time`, otherwise 
-connection between running in a container `stellar` and database 
+connection between running in the container `stellar` and database 
 may be dropped due to inactivity when performing a snapshot.  
 
 ### Limitations
